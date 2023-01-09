@@ -11,7 +11,7 @@ const LogOut = () => {
   };
 
   return (
-    <button onClick={() => auth.signOut()} className={style.button}>
+    <button onClick={() => auth.signOut(signOut)} className={style.button}>
       Logout
     </button>
   );
