@@ -10,7 +10,7 @@ const LogOut = () => {
   };
 
   return (
-    <div onClick={() => auth.signOut()} className={style.button}>
+    <div onClick={() => auth.signOut(signOut)} className={style.button}>
       Logout
     </div>
   );
